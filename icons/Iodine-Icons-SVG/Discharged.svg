@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Discharged</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Smartlist" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Smartlist---Default" transform="translate(-309.000000, -483.000000)">
+            <g id="Smartlist" transform="translate(271.000000, 206.000000)">
+                <g id="Discharged" transform="translate(35.000000, 274.000000)">
+                    <rect id="Rectangle-5" x="0" y="0" width="17" height="20"></rect>
+                    <polygon id="Rectangle-14" fill="#0068BE" points="3.2 3.2 9.6 3.2 9.6 4.8 4.8 4.8 4.8 14.4 9.6 14.4 9.6 16 3.2 16"></polygon>
+                    <polygon id="Shape" fill="#0068BE" fill-rule="nonzero" transform="translate(11.200000, 9.520000) rotate(180.000000) translate(-11.200000, -9.520000) " points="12.32 13.12 9.44 10.32 16 10.32 16 8.72 9.44 8.72 12.32 5.92 11.12 4.8 6.4 9.52 11.12 14.24"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

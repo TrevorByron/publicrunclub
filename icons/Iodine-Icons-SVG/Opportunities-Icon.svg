@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="23px" viewBox="0 0 16 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>bulb </title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Opportunities" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Opportunities---Possible-Condition-Open-Copy-3" transform="translate(-15.000000, -482.000000)">
+            <g id="Tools" transform="translate(-1.000000, 96.000000)">
+                <g id="Possible-Conditions" transform="translate(0.000000, 376.000000)">
+                    <g id="Opportunities-Icon-Blue" transform="translate(9.000000, 7.000000)">
+                        <g id="bulb-">
+                            <polygon id="a" points="0 0 29.1647485 0 29.1647485 29.1647485 0 29.1647485"></polygon>
+                            <path d="M11.5714286,24.7164286 C11.5714286,25.3461785 12.0857143,25.8614285 12.7142857,25.8614285 L17.2857143,25.8614285 C17.9142857,25.8614285 18.4285714,25.3461785 18.4285714,24.7164286 L18.4285714,23.5714286 L11.5714286,23.5714286 L11.5714286,24.7164286 Z" id="Path" fill-opacity="0.54" fill="#353D48"></path>
+                            <path d="M15,3 C10.5885714,3 7,6.58857143 7,11 C7,13.72 8.36,16.1085714 10.4285714,17.56 L10.4285714,20.1428571 C10.4285714,20.7714286 10.9428571,21.2857143 11.5714286,21.2857143 L18.4285714,21.2857143 C19.0571429,21.2857143 19.5714286,20.7714286 19.5714286,20.1428571 L19.5714286,17.56 C21.64,16.1085714 23,13.72 23,11 C23,6.58857143 19.4114286,3 15,3 Z" id="Shape" fill-opacity="0.54" fill="#353D48" fill-rule="nonzero"></path>
+                            <path d="M18.2571429,15.6857143 L17.2857143,16.3714286 L17.2857143,19 L12.7142857,19 L12.7142857,16.3714286 L11.7428571,15.6857143 C10.2,14.6114286 9.28571429,12.8628571 9.28571429,11 C9.28571429,7.84571429 11.8457143,5.28571429 15,5.28571429 C18.1542857,5.28571429 20.7142857,7.84571429 20.7142857,11 C20.7142857,12.8628571 19.8,14.6114286 18.2571429,15.6857143 Z" id="Path" fill="#F2F6FD"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

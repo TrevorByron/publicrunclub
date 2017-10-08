@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?ykmg6x');
+  src:  url('fonts/icomoon.eot?ykmg6x#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ykmg6x') format('truetype'),
+    url('fonts/icomoon.woff?ykmg6x') format('woff'),
+    url('fonts/icomoon.svg?ykmg6x#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-custom-timeline-documents:before {
+  content: "\e91c";
+}
+.icon-custom-undo-review:before {
+  content: "\e91b";
+}
+.icon-custom-timeline-scroll:before {
+  content: "\e90c";
+}
+.icon-custom-last-review:before {
+  content: "\e917";
+}
+.icon-custom-grip:before {
+  content: "\e908";
+}
+.icon-custom-timeline-labresults:before {
+  content: "\e909";
+}
+.icon-custom-timeline-radiology:before {
+  content: "\e907";
+}
+.icon-custom-timeline-medication:before {
+  content: "\e90b";
+}
+.icon-custom-timeline-consult:before {
+  content: "\e90e";
+}
+.icon-custom-timeline-DRG:before {
+  content: "\e910";
+}
+.icon-custom-timeline-query:before {
+  content: "\e90f";
+}
+.icon-custom-more-results:before {
+  content: "\e906";
+}
+.icon-check:before {
+  content: "\e900";
+}
+.icon-discharged:before {
+  content: "\e901";
+}
+.icon-documents:before {
+  content: "\e902";
+}
+.icon-expired:before {
+  content: "\e903";
+}
+.icon-grouper:before {
+  content: "\e904";
+}
+.icon-labs-and-vitals:before {
+  content: "\e905";
+}
+.icon-opportunities:before {
+  content: "\e90a";
+}
+.icon-pencil:before {
+  content: "\e90d";
+}
+.icon-queries-tab:before {
+  content: "\1f56c";
+}
+.icon-queries-tab-open-queries:before {
+  content: "\e911";
+}
+.icon-query-agrees:before {
+  content: "\e912";
+}
+.icon-query-disagrees:before {
+  content: "\e913";
+}
+.icon-query-no-response:before {
+  content: "\e914";
+}
+.icon-query-sent:before {
+  content: "\e915";
+}
+.icon-query:before {
+  content: "\e916";
+}
+.icon-stopped:before {
+  content: "\e918";
+}
+.icon-timeline:before {
+  content: "\e919";
+}
+.icon-snooze:before {
+  content: "\e91a";
+}
