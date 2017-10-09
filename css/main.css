@@ -1,62 +1,45 @@
+body {
+  position: relative; }
+
 .wrapper {
   min-height: 100vh;
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
-  color: #333;
+  color: #2F4858;
   position: relative; }
 
 section {
   height: 100vh;
   font-size: 40px;
   font-weight: 100;
-  background-color: white;
+  background-color: #fff;
+  border-top: 1px solid #86BBD8;
   display: flex;
   justify-content: center;
   align-items: center; }
-  section:nth-child(1) {
-    color: white; }
-  section:nth-child(2) {
-    color: #F64747; }
-  section:nth-child(3) {
-    color: #22A7F0; }
-  section:nth-child(4) {
-    color: #F9690E; }
-  section:nth-child(5) {
-    color: #9B59B6; }
-  section:nth-child(6) {
-    color: #03C9A9; }
-  section:nth-child(7) {
-    color: #ffcc00; }
 
 .nav__wrapper {
   position: fixed;
-  height: 100%;
   padding: 30px;
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-end; }
 .nav {
-  margin: 0 0 0 10px;
-  overflow-x: scroll;
-  padding-left: 30px;
-  padding-right: 20px; }
+  margin: 0 0 100px 30px; }
 .nav__counter {
-  font-size: 24px;
+  font-size: 16px;
   transition: all 0.15s ease-out; }
 .nav__title {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 300;
   margin: 0 0 0.25em;
-  width: 300px;
   height: 0;
   overflow: hidden;
   opacity: 0;
   transition: height 0.3s ease-out, opacity 0.2s ease-out; }
 .nav__body {
   font-weight: 100;
-  font-size: 18px;
-  font-size: 18px;
-  width: 300px;
+  font-size: 16px;
   height: 0;
   overflow: hidden;
   opacity: 0;
@@ -68,8 +51,8 @@ section {
   .nav li:after {
     content: '';
     display: block;
-    border-left: 2px solid #333;
-    border-top: 2px solid #333;
+    border-left: 2px solid #2F4858;
+    border-top: 2px solid #2F4858;
     height: 250px;
     width: 20px;
     position: absolute;
@@ -78,8 +61,9 @@ section {
   .nav li a {
     display: block;
     padding: 0;
-    color: #333;
-    transition: all 0.15s ease-out; }
+    color: #2F4858;
+    transition: all 0.15s ease-out;
+    width: 100%; }
     .nav li a:hover {
       background-color: transparent;
       padding-left: 1em; }
@@ -87,13 +71,13 @@ section {
       background-color: transparent; }
   .nav li.active {
     pointer-events: none;
-    padding-left: 1em; }
+    padding-left: 4em; }
     .nav li.active:after {
       width: 35px;
       height: 400px;
       top: 35px; }
     .nav li.active .nav__counter {
-      font-size: 48px; }
+      font-size: 28px; }
     .nav li.active .nav__title {
       height: 40px;
       opacity: 1;
@@ -101,6 +85,14 @@ section {
     .nav li.active .nav__body {
       height: 100px;
       opacity: 1;
-      overflow: visible; }
+      overflow: visible;
+      max-width: 50vw; }
+
+.section img {
+  width: 20vw;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px 0 rgba(36, 50, 66, 0.15);
+  position: relative;
+  left: 400px; }
 
 /*# sourceMappingURL=main.css.map */

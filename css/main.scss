@@ -1,56 +1,55 @@
+body{
+  position: relative;
+}
 .wrapper {
   min-height: 100vh;
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
-  color: #333;
+  color: #2F4858;
   position: relative;
-
 }
 
 section {
   height: 100vh;
   font-size: 40px;
   font-weight: 100;
-  background-color: white;
+  background-color: #fff;
+  border-top: 1px solid #86BBD8;
   display: flex;
   justify-content: center;
   align-items: center;
 
-  $colors: white, #F64747, #22A7F0, #F9690E, #9B59B6, #03C9A9, #ffcc00;
+  $colors: white, #86bbd8, #f6ae2b, #2f4858, #f26419, #33658A, #86bbd8;
   @for $i from 1 through length($colors) {
     &:nth-child(#{$i}) {
-      color: nth($colors, $i)
+      // background: nth($colors, $i)
     }
   }
 }
 
-
 .nav {
-
   &__wrapper {
     position: fixed;
-    height: 100%;
+    // height: 100%;
     padding: 30px;
+
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-end;
   }
 
   & {
-    margin: 0 0 0 10px;
-    overflow-x: scroll;
-    padding-left: 30px;
-    padding-right: 20px;
+    margin: 0 0 100px 30px;
   }
   &__counter {
-    font-size: 24px;
+    font-size: 16px;
     transition: all 0.15s ease-out;
   }
   &__title {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 300;
     margin: 0 0 0.25em;
-    width: 300px;
+    // width: 300px;
     height: 0;
     overflow: hidden;
     opacity: 0;
@@ -58,9 +57,8 @@ section {
   }
   &__body {
     font-weight: 100;
-    font-size: 18px;
-    font-size: 18px;
-    width: 300px;
+    font-size: 16px;
+    // width: 300px;
     height: 0;
     overflow: hidden;
     opacity: 0;
@@ -75,8 +73,8 @@ section {
     &:after {
       content: '';
       display: block;
-      border-left: 2px solid #333;
-      border-top: 2px solid #333;
+      border-left: 2px solid #2F4858;
+      border-top: 2px solid #2F4858;
       height: 250px;
       width: 20px;
       position: absolute;
@@ -87,8 +85,9 @@ section {
     a {
       display: block;
       padding: 0;
-      color: #333;
+      color: #2F4858;
       transition: all 0.15s ease-out;
+      width: 100%;
 
       &:hover {
         background-color: transparent;
@@ -97,11 +96,12 @@ section {
       &:focus {
         background-color: transparent;
       }
+
     }
 
     &.active {
       pointer-events: none;
-      padding-left: 1em;
+      padding-left: 4em;
 
       &:after {
         width: 35px;
@@ -110,7 +110,7 @@ section {
       }
 
       .nav__counter {
-        font-size: 48px;
+        font-size: 28px;
       }
       .nav__title {
         height: 40px;
@@ -121,9 +121,20 @@ section {
         height: 100px;
         opacity: 1;
         overflow: visible;
+          max-width: 50vw;
       }
     }
 
   }
 
+}
+
+.section {
+  img {
+    width: 20vw;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px 0 rgba(36, 50, 66, 0.15);
+    position: relative;
+    left: 400px;
+  }
 }
